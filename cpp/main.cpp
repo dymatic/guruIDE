@@ -1,5 +1,5 @@
 #include <QtGui/QApplication>
-#include "display.h"
+#include "header/display.h"
 #include <stdio.h>
 #include <iostream>
 using namespace std;

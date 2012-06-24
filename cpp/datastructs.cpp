@@ -1,4 +1,4 @@
-#include "datastructs.h"
+#include "header/datastructs.h"
 #include "ui_datastructs.h"
 #include <QTextEdit>
 #include <iostream>

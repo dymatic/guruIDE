@@ -1,4 +1,4 @@
-#include "conditions.h"
+#include "header/conditions.h"
 #include "ui_conditions.h"
 #include <QTextEdit>
 #include <QWidgetItemV2>

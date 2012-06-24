@@ -1,6 +1,6 @@
-#include "open.h"
+#include "header/open.h"
 #include "ui_open.h"
-#include "nsl.h"
+#include "header/nsl.h"
 #include <QTextEdit>
 #include <iostream>
 #include <sstream>

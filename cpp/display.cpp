@@ -2,16 +2,16 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "display.h"
+#include "header/display.h"
 #include "ui_display.h"
-#include "boilerplate.h"
-#include "loops.h"
-#include "functionbox.h"
-#include "conditions.h"
-#include "comments.h"
-#include "datastructs.h"
-#include "save.h"
-#include "open.h"
+#include "header/boilerplate.h"
+#include "header/loops.h"
+#include "header/functionbox.h"
+#include "header/conditions.h"
+#include "header/comments.h"
+#include "header/datastructs.h"
+#include "header/save.h"
+#include "header/open.h"
 using namespace std;
 QString *openBuff=new QString("New File");
 display::display(QWidget *parent) :

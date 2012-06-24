@@ -1,4 +1,4 @@
-#include "functionbox.h"
+#include "header/functionbox.h"
 #include "ui_functionbox.h"
 #include <iostream>
 #include <sstream>
