@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Loops</class>
+ <widget class="QMainWindow" name="Loops">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="forB">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>304</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>for</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dwB">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>32</y>
+      <width>304</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>do-while</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="whileB">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>56</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>while</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="condBox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="condLabel">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>83</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Condition:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cLabel">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Use Counter:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>97</width>
+      <height>16</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="accept">
+    <property name="geometry">
+     <rect>
+      <x>159</x>
+      <y>110</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Okay</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>322</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

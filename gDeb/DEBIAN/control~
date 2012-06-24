@@ -1,0 +1,9 @@
+Package: sct
+Version: 2.4.0-0ubuntu1
+Architecture: amd64
+Maintainer: Norton "Dymatic" Jenkins <dominantshoe@gmail.com>
+Installed-Size: 135
+Depends:
+Section: development
+Priority: optional
+Description: Make your own language.

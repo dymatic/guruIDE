@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>data</class>
+ <widget class="QMainWindow" name="data">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>184</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QRadioButton" name="intB">
+      <property name="text">
+       <string>Integer</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QRadioButton" name="structB">
+      <property name="text">
+       <string>Struct</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="1" column="0" rowspan="2" colspan="4">
+     <widget class="QRadioButton" name="charB">
+      <property name="text">
+       <string>Character</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="2" column="3" rowspan="2">
+     <widget class="QRadioButton" name="unionB">
+      <property name="text">
+       <string>Union</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QRadioButton" name="doubleB">
+      <property name="text">
+       <string>Double</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <widget class="QRadioButton" name="floatB">
+      <property name="text">
+       <string>Float</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QRadioButton" name="classB">
+      <property name="text">
+       <string>Class</string>
+      </property>
+      <attribute name="buttonGroup">
+       <string notr="true">buttonGroup</string>
+      </attribute>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QCheckBox" name="arrayC">
+      <property name="text">
+       <string>Array?</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QCheckBox" name="pointerB">
+      <property name="text">
+       <string>Pointer?</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Array Members:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2" colspan="2">
+     <widget class="QSpinBox" name="arrayMem"/>
+    </item>
+    <item row="7" column="1" colspan="3">
+     <widget class="QLineEdit" name="nameField"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Value:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1" colspan="3">
+     <widget class="QLineEdit" name="valueField"/>
+    </item>
+    <item row="10" column="0" colspan="2">
+     <widget class="QPushButton" name="cancelButton">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2" colspan="2">
+     <widget class="QPushButton" name="okayButton">
+      <property name="text">
+       <string>Okay</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>184</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

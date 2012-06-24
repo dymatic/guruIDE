@@ -1,0 +1,23 @@
+This is a program used to graphically create programs. You can either compile it from the source or use the .deb I attached. Inside gDeb you will find the resources associated with this program, including the icons.
+
+On windows systems the icons will not work because they rely on /usr/share/pixmaps/guru. You can change this in the source if you wish. The executable is in gDeb/usr/bin if you just want to run it from there, but remember that there will be no window icons.
+
+This project is still in heavy development. Here are a list of the future additions I will make to the program:
+
+===Developer Plans===
+Better aesthetics
+SCT integration (this is one of my higher priorities)
+Syntax highlighting (so is this)
+About dialog
+Help dialog
+More control in the loop dialog.
+
+===Editors===
+This is free software. See the license. Below are the contributors names and preferred contact information:
+
+Norton "dymatic" Jenkins <dominantshoe@gmail.com> (original author)
+
+===History===
+About a year ago I made a program in Java and Swing called "Laside" that did the same thing that this program does. However, I did not fully understand programming at the time and was unable
+to have communication across multiple windows. I gave up. Almost exactly a year later I began
+development on Laside 2 using Qt. After a week it was finished, and I released it under the codename "Guru 1".

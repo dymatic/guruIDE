@@ -1,0 +1,7 @@
+?package(guru):\
+    needs="x11"\
+    section="Development/Utility"\
+    title="Guru"\
+    longtitle="Graphical C++ IDE"\
+    icon="/usr/share/pixmaps/guru/GuruSys.png"\
+    command="/usr/bin/guru"

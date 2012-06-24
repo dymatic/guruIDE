@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=guru
+GenericName=Graphical IDE
+Comment=Make programs graphically
+Keywords=Program;Graphical
+Exec=guru
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/share/pixmaps/guru/GuruSys.png
+Categories=Development;Utility
