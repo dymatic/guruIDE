@@ -1,3 +1,10 @@
+/*
+  *Data structures are variables that hold
+  *information. Structs, unions, and types
+  *all go here.
+  */
+
+
 #ifndef DATASTRUCTS_H
 #define DATASTRUCTS_H
 

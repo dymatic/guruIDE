@@ -1,3 +1,7 @@
+/*
+  *Comments generates comments like the one you
+  *are reading right now.
+  */
 #ifndef COMMENTS_H
 #define COMMENTS_H
 
@@ -18,9 +22,9 @@ public:
 private:
     Ui::Comments *ui;
 public slots:
-    void writeComment();
-    void writePmet();
-    void writeMail();
+    void writeComment();//Write comment to text editor
+    void writePmet();  //Write @param doc
+    void writeMail(); //Write @return doc
 };
 
 #endif // COMMENTS_H

@@ -1,3 +1,9 @@
+/*
+  *Conditions fork the program.
+  *Things such as if-else statements and
+  *switches go here
+  */
+
 #ifndef CONDITIONS_H
 #define CONDITIONS_H
 

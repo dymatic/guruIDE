@@ -1,3 +1,7 @@
+/*
+  *Load a file into the text editor.
+  */
+
 #ifndef OPEN_H
 #define OPEN_H
 
@@ -17,6 +21,7 @@ public:
     ~open();
 public slots:
     void openFile();
+    void setFile(std::string);
 private:
     Ui::open *ui;
 };

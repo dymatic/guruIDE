@@ -1,9 +1,9 @@
-Package: sct
-Version: 2.4.0-0ubuntu1
+Package: guru
+Version: 1.0-0ubuntu1
 Architecture: amd64
-Maintainer: Norton "Dymatic" Jenkins <dominantshoe@gmail.com>
-Installed-Size: 135
-Depends:
+Maintainer: Norton "dymatic" Jenkins <dominantshoe@gmail.com>
+Installed-Size: 600
+Depends: libqt4-dbus (>= 4:4.5.3), libqt4-qt3support (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
 Section: development
 Priority: optional
-Description: Make your own language.
+Description: Graphically program applications.

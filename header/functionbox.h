@@ -1,3 +1,10 @@
+/*
+  *A place to declare types of functions
+  *and to assign them parameters and
+  *types.
+  */
+
+
 #ifndef FUNCTIONBOX_H
 #define FUNCTIONBOX_H
 

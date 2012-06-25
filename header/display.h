@@ -1,3 +1,8 @@
+/*
+  *This is the main window that
+  *shows the active text and launches all
+  *sub-activities.
+  */
 #ifndef DISPLAY_H
 #define DISPLAY_H
 
@@ -21,6 +26,8 @@ public slots:
     void startCP();
     void startDP();
     void startUP();
+    void startAB();
+    void startST();
 
     void saveF();
     void openF();

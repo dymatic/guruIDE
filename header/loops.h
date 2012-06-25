@@ -1,3 +1,9 @@
+/*
+  *Loops repeat a chunk of code until a
+  *condition is met. They can be used to output
+  *multiple times in which case a counter is used.
+  */
+
 #ifndef LOOPS_H
 #define LOOPS_H
 

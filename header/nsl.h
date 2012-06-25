@@ -1,59 +1,25 @@
 /*
-*This software is licensed under the Noran Restricted Public License (0.02)
-*Author: Norton "dymatic" Jenkins <kzzear@hotmail.com>
-*/
+  *nsl.h is my standard library. Thanks to
+  *a huge error with multiple function definition
+  *I had to throw some lexic.h functions from Langdiff
+  *in here. For now this is just going to be a storage
+  *garage for all sorts of functions that this program
+  *calls for. The plan is to keep all plugin-related functions
+  *contained in here.
+  */
+
+#ifndef NSL_H
+#define NSL_H
 #include <iostream>
-#include <fstream>
 using namespace std;
-/**
-*Finds the number of lines in a file.
-*@param filename - The path to the file
-*@return lines - The number of lines in the file
-*/
-int linec(string filename)
+class nsl
 {
-    ifstream file(filename.c_str());
-    int lines=0;
-    string buffer;
+public:
+    nsl();
+    int linec(string);
+    void orderFile(string);
+    void compile(string fileName,int lines,string toWriteTo,string magichar);
+    void loadLanguage(string filename,int lines);
+};
 
-    for(; getline(file,buffer);)
-    {
-        lines++;
-    }
-    file.close();
-    return lines;
-}
-
-/**
-*Orders the file by file length.
-*@param filepath - The path to the file
-*/
-void orderFile(string filepath)
-{
-
-    ifstream file(filepath.c_str());
-    int nlines=linec(filepath);
-
-    string lines[nlines];
-
-    for(int index=0; index<nlines; index++) //Make container
-        getline(file,lines[index]);
-
-    for(int index=0; index<nlines-1; index++) //Iterate through positions
-    {
-        while(lines[index].length()<lines[index+1].length())
-        {
-            string buffer;
-            buffer=lines[index];
-
-            lines[index]=lines[index+1];
-            lines[index+1]=buffer;
-            index--;
-        }
-    }
-    file.close();
-    ofstream writer(filepath.c_str());
-    for(int index=0; index<nlines; index++)
-        writer<<lines[index]<<endl;
-    writer.close();
-}
+#endif // NSL_H

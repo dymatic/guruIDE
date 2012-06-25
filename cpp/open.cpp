@@ -4,6 +4,7 @@
 #include <QTextEdit>
 #include <iostream>
 #include <sstream>
+#include <fstream>
 using namespace std;
 QTextEdit *openEditor;
 QString *buffName2;
@@ -29,9 +30,11 @@ open::~open()
 void open::openFile(){
     stringstream buff;
     string buffer;
+    nsl fileWorker;
+
     ifstream reader(ui->fileName->text().toStdString().c_str());
 
-    for(int index=0; index<linec(ui->fileName->text().toStdString()); index++){
+    for(int index=0; index<fileWorker.linec(ui->fileName->text().toStdString()); index++){
         getline(reader,buffer);
         buff<<buffer<<endl;
     }
@@ -40,4 +43,9 @@ void open::openFile(){
     cout << toNameto->toStdString();
     buffName2=toNameto;
     this->close();
+}
+
+void open::setFile(string name)
+{
+    ui->fileName->setText(QString::fromStdString(name));
 }

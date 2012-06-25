@@ -19,7 +19,10 @@ SOURCES += cpp/main.cpp\
     cpp/comments.cpp \
     cpp/datastructs.cpp \
     cpp/save.cpp \
-    cpp/open.cpp
+    cpp/open.cpp \
+    cpp/about.cpp \
+    cpp/sctw.cpp \
+    cpp/nsl.cpp
 
 HEADERS  += header/display.h \
     header/boilerplate.h \
@@ -29,7 +32,10 @@ HEADERS  += header/display.h \
     header/comments.h \
     header/datastructs.h \
     header/save.h \
-    header/open.h
+    header/open.h \
+    header/about.h \
+    header/sctw.h\
+    header/nsl.h
 
 FORMS    += form/display.ui \
    form/boilerplate.ui \
@@ -39,4 +45,6 @@ FORMS    += form/display.ui \
    form/comments.ui \
    form/datastructs.ui \
    form/save.ui \
-   form/open.ui
+   form/open.ui \
+    form/about.ui \
+    form/sctw.ui

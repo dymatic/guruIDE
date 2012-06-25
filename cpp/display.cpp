@@ -12,6 +12,8 @@
 #include "header/datastructs.h"
 #include "header/save.h"
 #include "header/open.h"
+#include "header/about.h"
+#include "header/sctw.h"
 using namespace std;
 QString *openBuff=new QString("New File");
 display::display(QWidget *parent) :
@@ -45,6 +47,10 @@ display::display(QWidget *parent) :
 
     QObject::connect(ui->actionCopy,SIGNAL(triggered()),this,SLOT(cop()));
     QObject::connect(ui->actionPaste,SIGNAL(triggered()),this,SLOT(pas()));
+
+    //1.5 additions
+    QObject::connect(ui->actionGuru,SIGNAL(triggered()),this,SLOT(startAB()));
+    QObject::connect(ui->actionSCT,SIGNAL(triggered()),this,SLOT(startST()));
 }
 
 display::~display()
@@ -98,4 +104,14 @@ void display::cop(){
 
 void display::pas(){
     ui->code->paste();
+}
+
+void display::startAB(){
+    About *abox = new About(this);
+    abox->show();
+}
+
+void display::startST(){
+    sctW *sPlug = new sctW(this,ui->code);
+    sPlug->show();
 }

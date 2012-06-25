@@ -1,3 +1,9 @@
+/*
+  *Save the text to a file.
+  *This will overwrite any other file
+  *without asking.
+  */
+
 #ifndef SAVE_H
 #define SAVE_H
 
